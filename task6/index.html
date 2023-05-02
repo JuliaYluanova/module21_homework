@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Запрос картинок</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Запрос картинок</h1>
+      <form>
+        <div class="form-group">
+          <label for="page-input">Номер страницы:</label>
+          <input type="text" id="page-input" name="page">
+        </div>
+        <div class="form-group">
+          <label for="limit-input">Лимит:</label>
+          <input type="text" id="limit-input" name="limit">
+        </div>
+        <button type="button" id="request-button">Запрос</button>
+      </form>
+      <ul id="image-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

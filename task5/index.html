@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Список задач пользователя</title>
+    <style>
+      /* Стили для отображения зачеркнутого текста */
+      .completed {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="userId">ID пользователя:</label>
+    <input type="text" id="userId" name="userId">
+    <button id="getTasksButton">Получить список задач</button>
+    <p id="message"></p>
+    <ul id="taskList"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
